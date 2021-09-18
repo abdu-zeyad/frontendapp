@@ -5,7 +5,7 @@ import Login from './components/login';
 function App() {
 
   const [token, setToken] = useState('');
-
+  console.log(token);
   const userLogin = (tok) => {
     setToken(tok);
   }
